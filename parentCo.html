@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>ParentCo|Outlet Plugs</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+       rel="stylesheet" 
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+   />
+  </head>
+  <style>
+      /* Global Styling */
+      body {
+        background-color: lightpink;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+
+      /* Announcement Bar */
+      .announcement__text span {
+        animation: ticker 15s linear infinite;
+        display: block;
+        white-space: nowrap;
+      }
+
+      @keyframes ticker {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+
+      /* Navbar */
+      .navbar {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Hero Section */
+      #hero video {
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      /* About Us Section */
+      .about-us-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        margin-top: 50px;
+      }
+
+      .about-us-text {
+        flex: 1;
+        font-size: 1.2rem;
+      }
+
+      .about-us-text h2 {
+        font-size: 2.2rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #0078d7;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+      }
+
+      .about-us-img {
+        flex: 0.5;
+        max-width: 300px;
+      }
+
+      .about-us-img img {
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        max-width: 100%;
+      }
+
+      /* Cards Section */
+      .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Footer */
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      footer a {
+        color: #0078d7;
+        transition: color 0.3s ease;
+      }
+
+      footer a:hover {
+        color: #005bb5;
+      }
+</style>
+  <body>
+    
+    <!-- Announcement Bar -->
+    <div class="container-fluid bg-info text-light py-2">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="announcement__text">
+          <span>Now in Walmart! Make your online purchase today! </span>
+        </div>
+        <div class="announcement__text">
+          <span> Now in Walmart! Make your online purchase today!</span>
+        </div>
+        <div class="announcement__text">
+          <span> Now in Walmart! Make your online purchase today!</span>
+        </div>
+        <a href="https://www.walmart.com/ip/ParentCo-Outlet-Covers-4pack/2583210173" class="btn btn-outline-light btn-sm">Shop Now</a>
+      </div>
+    </div>
+    
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            <img
+              src="https://static.wixstatic.com/media/46add2_d7da458f92c84efcb7fb4d6fabc680a0~mv2.png/v1/fill/w_398,h_150,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo_transparent_background.png"
+              alt="ParentCo Logo"
+              width="199"
+              height="75"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Patents</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Add to Cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="mb-5">
+      <div class="container-fluid">
+        <video class="d-block w-100" muted autoplay loop>
+          <source src="ParentCo-Elevator Pitch.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="text-center mt-3">
+          <a href="#" class="btn btn-outline-dark btn-lg">Watch Full Pitch</a>
+        </div>
+      </div>
+    </section>
+
+<!-- Main Content -->
+<main class="container my-5">
+  <div class="d-flex justify-content-center">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <!-- Carousel Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      </div>
+      
+      <!-- Carousel Inner -->
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <img src="IMG_6386.jpg" class="d-block mx-auto" style="width: 70%; height: auto;" alt="Slide 1">
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <img src="IMG_6385.jpg" class="d-block mx-auto" style="width: 70%; height: auto;" alt="Slide 2">
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <img src="IMG_6377.jpg" class="d-block mx-auto" style="width: 70%; height: auto;" alt="Slide 3">
+        </div>
+        <!-- Slide 4 -->
+        <div class="carousel-item">
+          <img src="IMG_6392.jpg" class="d-block mx-auto" style="width: 70%; height: auto;" alt="Slide 4">
+        </div>
+        <!-- Slide 5 -->
+        <div class="carousel-item">
+          <img src="IMG_6388.jpg" class="d-block mx-auto" style="width: 70%; height: auto;" alt="Slide 5">
+        </div>
+        <!-- Slide 6 -->
+        <div class="carousel-item">
+          <img src="IMG_6387.jpg" class="d-block mx-auto" style="width: 70%; height: auto;" alt="Slide 6">
+        </div>
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</main>
+  <section id="projects-about" class="container my-5">
+    <div class="row justify-content-center align-items-center">
+      <!-- Product/Project Cards Section -->
+      <div class="col-md-4">
+        <span class="badge bg-success">New</span>
+        <h2 class="text-center mb-4"></h2>
+        <div class="row row-cols-1 g-4 justify-content-center">
+          <!-- Card 1 -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="IMG_6377.jpg" class="card-img-top" alt="Project 1">
+              <div class="card-body">
+                <h5 class="card-title">Outlet Plug Plate</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- About Us Section -->
+      <div class="col-md-4">
+        <div class="about-us-text">
+          <h2>Welcome to ParentCo</h2>
+          <p>
+            Our mission to enhance child safety is rooted in personal experience. Our founder, inspired by her own journey, developed the Outlet Plug Plate after a troubling incident: one of her children managed to stick something into an outlet because she had forgotten to replace a traditional plug back in.
+          </p>
+          <p>
+            For over 30 years, traditional plugs have posed these challenges—forgetting to put them back, losing and stepping on them, and choke hazards. Our founder has invented another way, the Outlet Plug Plate, born from her commitment to solving these issues.
+          </p>
+          <p>
+            At ParentCo, we understand the delicate balance between ensuring child safety and maintaining convenience for parents. Thank you for choosing ParentCo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- Product Comparison Table -->
+<section id="product-comparison" class="container my-5">
+  <h2 
+  class="text-center mb-4 text-success fw-bold" 
+  style="font-size: 2.5rem; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);">
+  Compare Our Products
+</h2>
+  <div class="card shadow-lg p-4">
+    <div class="table-responsive">
+      <table class="table table-striped table-hover align-middle">
+        <thead class="table-primary text-center">
+          <tr>
+            <th scope="col" class="w-50">Features</th>
+            <th scope="col" class="w-50">Comparison</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="bg-light">Standard Designs
+              <img src="standard.jpg" height="100" width="100" class="rounded-circle me-2" alt="Standard Design Image">
+            <td>
+              <ul class="list-unstyled">
+                <li><i class="bi bi-x-circle-fill text-danger"></i> Likely to turn into a choking hazard</li>
+                <li><i class="bi bi-x-circle-fill text-danger"></i> Forget to put back</li>
+                <li><i class="bi bi-x-circle-fill text-danger"></i> Gets lost!</li>
+                <li><i class="bi bi-x-circle-fill text-danger"></i> Often stepped on</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" class="bg-light">ParentCo's Design
+              <img src="pc.jpg" height="100" width="100" class="rounded-circle me-2" alt="Standard Design Image">
+            <td>
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-success"></i> Prevents choking hazard</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Always attached to the wall</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> No losing plugs</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Designed to blend in with home decor</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<!-- Review Form Section -->
+<section id="review-form" class="container my-5">
+  <h2 
+  class="text-center mb-4 text-primary fw-bold" 
+  style="font-size: 2.5rem; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">
+  Submit Your Review
+</h2>
+  <form>
+    <!-- Name Field -->
+    <div class="mb-3">
+      <label for="name" class="form-label">Your Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+    </div>
+    <!-- Email Field -->
+    <div class="mb-3">
+      <label for="email" class="form-label">Your Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+    </div>
+    <!-- Rating Field -->
+    <div class="mb-3">
+      <label class="form-label">Rating</label>
+      <div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="rating" id="rating1" value="1">
+          <label class="form-check-label" for="rating1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="rating" id="rating2" value="2">
+          <label class="form-check-label" for="rating2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="rating" id="rating3" value="3">
+          <label class="form-check-label" for="rating3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="rating" id="rating4" value="4">
+          <label class="form-check-label" for="rating4">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="rating" id="rating5" value="5">
+          <label class="form-check-label" for="rating5">5</label>
+        </div>
+      </div>
+    </div>
+    <!-- Review Field -->
+    <div class="mb-3">
+      <label for="review" class="form-label">Your Review</label>
+      <textarea class="form-control" id="review" rows="5" placeholder="Write your review here..." required></textarea>
+    </div>
+    <!-- Submit Button -->
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary">Submit Review</button>
+    </div>
+  </form>
+</section>
+</main>
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-dark text-light">
+      <p>&copy; 2024 ParentCo. All Rights Reserved.</p>
+      <nav>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="https://www.parentco.com" class="text-light">Home</a></li>
+          <li class="list-inline-item"><a href="https://www.parentco.com/support" class="text-light">Contact</a></li>
+          <li class="list-inline-item"><a href="https://www.parentco.com" class="text-light">About</a></li>
+          <li class="list-inline-item"><a href="https://www.parentco.com/patents" class="text-light">Patents</a></li>
+          <li class="list-inline-item"><a href="https://www.parentco.com/product-page/outlet-plug-plates-4pk" class="text-light">Cart</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+
+
+    
+
+ 
+
+    
+
+  
